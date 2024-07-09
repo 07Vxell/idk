@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vxell">
+    <meta name="description" content="Apocalypse">
+    <meta name="keywords" content="About me, Tragedy">
+    <link rel="icon" type="image/x-icon" href="icons8-cruz-16.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Apocalypse</title>
+</head>
+<body class="black">
+    <header>Dismissal</header>
+    <div class="blacky">
+    <p>Un comienzo, un final...</p>
+    </div>
+    <div class="blackyy">
+    <p>"Aunque me sienta terriblemente muerto, dejaré mi impronta.<br>
+        Una tinta recorre mi cuerpo. Esto quedará grabado para siempre. <br>
+        Me convertiré en el jinete apocalíptico desconocido".</p>
+    </div>
+</div>
+</div>
+<nav>
+    <div class="vamp">
+        <button></button>
+        <div class="vamp-content">
+            <a href="index.html">Un Principio</a>
+            <a href="catastrophes.html">Indeseable Legado</a>
+            <a href="devastation.html">Querido Diario</a>
+            <a href="doomsday.html">Amén</a>
+        </div>
+    </div>
+</nav>
+<section> 
+
+    <h3>El Cementerio de mi Alma</h3>
+    <div class="imagen-arriba">
+        <h4>Repulsivo: Tomo I</h4>
+        <img src="“Fragmentos De Vidrio”-1.png" alt="Fragmentos De Vidrio 1" class="imagen-normal" width="400" onclick="ampliarImagen(this)">
+    </div>
+    
+    <div class="imagen-abajo">
+        <div class="grupo-imagenes">
+            <div class="grupo">
+                <h4>Entrañas: Tomo I</h4>
+                <img src="“Valle de Lavanda, todo es posible”-1.png" alt="Valle de Lavanda, todo es posible 1" class="imagen-normal" width="300" onclick="ampliarImagen(this)">
+                <img src="“Valle de Lavanda, todo es posible”-2.png" alt="Valle de Lavanda, todo es posible 2" class="imagen-normal" width="300" onclick="ampliarImagen(this)">
+            </div>
+    
+            <div class="grupo">
+                <h4>Desgracia: Tomo I</h4>
+                <img src="Documento sin título-1.png" alt="Documento sin título 1" class="imagen-normal" width="300" onclick="ampliarImagen(this)">
+                <img src="Documento sin título-2.png" alt="Documento sin título 2" class="imagen-normal" width="300" onclick="ampliarImagen(this)">
+            </div>
+        </div>
+    </div>
+    <div class="imagen-ampliada" id="imagenAmpliada">
+        <span onclick="cerrarImagen()" style="position: absolute; top: 20px; right: 20px; color: white; cursor: pointer; font-size: 24px;">&times;</span>
+    <img id="imagenAmpliadaSrc" src="" alt="Imagen Ampliada">
+    </div>
+    
+    <script>
+        // Función para ampliar la imagen al hacer clic
+        function ampliarImagen(img) {
+            var imagenAmpliada = document.getElementById("imagenAmpliada");
+            var imagenAmpliadaSrc = document.getElementById("imagenAmpliadaSrc");
+    
+            // Muestra el contenedor de la imagen ampliada
+            imagenAmpliada.style.display = "flex";
+    
+            // Actualiza la imagen ampliada con la imagen clickeada
+            imagenAmpliadaSrc.src = img.src;
+        }
+    
+        // Función para cerrar la imagen ampliada al hacer clic en la "X"
+        function cerrarImagen() {
+            var imagenAmpliada = document.getElementById("imagenAmpliada");
+    
+            // Oculta el contenedor de la imagen ampliada
+            imagenAmpliada.style.display = "none";
+        }
+    </script>
+</section>
+</body>
+</div>
+</html>

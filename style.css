@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+@font-face {
+    font-family: "Bodoni Moda SC";
+    src: url("LYjndGTykkIgA8197UwkzHp8F8_dYp-6DdBNRF6RX6nFRpfi-Gf55IgAecattN-h-fb2j8E.woff2");
+}
+
+@media (max-width: 768px) {
+  body {
+      width: 100%;
+  }
+}
+.black {
+    background-image: url(low-angle-shot-ruin-with-arched-type-windows-near-tall-tree-black-white.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+font-size: 70px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:rgb(255, 255, 255)
+
+}
+
+.blacky {
+font-size: 30px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(255, 255, 255);
+margin-left: 40px;
+
+}
+
+.blackyy {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+
+    }
+    
+      .vamp {
+        display: inline-block;
+        position: relative;
+      }
+      .vamp-content {
+        display: none;
+        position: absolute;
+        width: 100%;
+        overflow: auto;
+        box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+      }
+      .vamp:hover .vamp-content {
+        display: block;
+      }
+      .vamp-content a {
+        display: block;
+        color: #ffffff;
+        padding: 5px;
+        text-decoration: none;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+      }
+      .vamp-content a:hover {
+        color: #FFFFFF;
+        background-color: #c4c1c17a;
+    
+      }
+
+      button {
+        width: 135px;
+  height: 130px; 
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     background-color: transparent;
+     background-image: url(icons8-menú-150\ \(1\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+      }
+
+
+      p {
+color:#ffffff;
+font-style: italic;
+font-size: 17px;
+font-family: "Bodoni Moda SC";
+font-style: oblique;
+text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+-webkit-text-stroke: 1px rgba(255, 255, 255, 0.8);
+text-stroke: 1px rgba(255, 255, 255, 0.493);
+      }
+
+.demolition {
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+.classic {
+  line-height: 1.5;
+}
+
+
+  h1 {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px; 
+  }
+  
+      .red{
+        padding: 2rem 3rem;
+        text-align: center;
+        color: #fff;
+        border: 3px solid #ffffff44;
+        box-shadow: 0px 0px 25px #ffffff;
+        backdrop-filter: blur(5px);
+        filter:
+        drop-shadow(20px 10px 55px rgb(0, 0, 0));
+      }
+
+      nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 200px;
+        height: 100vh;
+        padding: 20px;
+        z-index: 1000;
+    }
+
+
+    .blue {
+        background-image: url(low-angle-shot-ruin-with-arched-type-windows-near-tall-tree-black-white.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        backdrop-filter: blur(4px);
+    }
+
+
+    .galery {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 30px; 
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: flex-end;
+  }
+  
+  .galery img {
+      width: 18%;
+      height: auto;
+      display: block;
+      border-radius: 8px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      border: 3px solid rgb(0, 0, 0);
+  }
+
+  h2 {
+    padding-top: 50px;
+    padding-left: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: #FFFFFF;
+    
+   }
+
+
+  .hate {
+    padding-left: 50px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+  }
+
+  .juicio {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-end;
+}
+
+.juicio img {
+    width: 18%;
+    height: auto;
+    display: block;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border: 3px solid rgb(0, 0, 0);
+}
+
+
+h3 {
+    padding-top: 50px;
+    padding-left: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+h4 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.imagen-arriba {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.imagen-abajo {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.grupo-imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.grupo-imagenes .grupo {
+  text-align: center;
+}
+
+.grupo-imagenes h4 {
+  margin-bottom: 10px;
+}
+
+.grupo-imagenes img {
+  width: 300px;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.imagen-ampliada {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.imagen-ampliada img {
+  max-width: 90%; 
+  max-height: 90%; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+}
+
+@media (max-width: 768px) {
+  .grupo-imagenes img {
+    width: 100%;
+    max-width: none; 
+  }
+}
+
+
